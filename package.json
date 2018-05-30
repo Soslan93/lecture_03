@@ -4,9 +4,14 @@
   "description": "homework 03",
   "main": "server.js",
   "dependencies": {
-    "node-static": "^0.7.10"
+    "node-static": "^0.7.10",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "webpack": "^4.10.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
